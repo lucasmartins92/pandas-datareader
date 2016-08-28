@@ -78,8 +78,8 @@ class Options(_OptionBaseReader):
     >>> all_data = aapl.get_all_data()
     """
 
-    _OPTIONS_BASE_URL = 'http://finance.yahoo.com/q/op?s={sym}'
-    _FINANCE_BASE_URL = 'http://finance.yahoo.com'
+    _OPTIONS_BASE_URL = 'http://ca.finance.yahoo.com/q/op?s={sym}'
+    _FINANCE_BASE_URL = 'http://ca.finance.yahoo.com'
 
     def get_options_data(self, month=None, year=None, expiry=None):
         """
